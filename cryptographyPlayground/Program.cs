@@ -1,6 +1,6 @@
 ﻿using cryptographyPlayground;
-using System.Text;
+using System;
 
 Methods methods = new();
 
-methods.XorCalc();
+Console.WriteLine(methods.XorCalc());
